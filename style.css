@@ -1,0 +1,35 @@
+.row {
+ height: 100vh;
+}
+
+.sidebar {
+    padding: 0;
+    height: inherit;
+    background-color: #2a262b;
+}
+
+.logo {
+    padding: 10px 15px;
+}
+
+.nav-sidebar li a{
+    color: #69c3db;
+    font-size: 25px;
+}
+
+.main {
+    position: fixed;
+    height: inherit;
+    padding: 100px 20px;
+    background-color: #d6dada;
+}
+
+.bookmark {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.bookmark a {
+    margin-left: 10px;
+    color: #2a262b;
+}
