@@ -1,5 +1,5 @@
 .row {
- height: 100vh;
+    height: 100vh;
 }
 
 .sidebar {
@@ -17,19 +17,44 @@
     font-size: 25px;
 }
 
+.nav-sidebar .active {
+    color: #337ab7;
+    background-color: #eee;
+}
+
 .main {
     position: fixed;
     height: inherit;
     padding: 100px 20px;
     background-color: #d6dada;
+    overflow: auto;
 }
 
 .bookmark {
     font-size: 20px;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 
-.bookmark a {
+.bookmark .title {
     margin-left: 10px;
     color: #2a262b;
+}
+
+.bookmark .btn-edit:hover {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.active .title {
+    color: #337ab7;
+}
+
+.btn-link {
+    font-size: 20px;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+    outline: none;
 }
